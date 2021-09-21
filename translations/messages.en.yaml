@@ -1,0 +1,9 @@
+panier:
+  name: Product name
+  quantity: Quantity
+  total: Total
+  no: There is no products in your basket
+product:
+  edit: Edit product
+back:
+  list: Back to list

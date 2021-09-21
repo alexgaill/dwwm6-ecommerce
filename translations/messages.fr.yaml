@@ -1,0 +1,9 @@
+panier:
+  name: Nom du produit
+  quantity: Quantité
+  total: Total
+  no: Il n'y a pas de produits dans votre panier pour le moment
+product:
+  edit: Mise à jour des produits
+back:
+  list: Retour à la liste

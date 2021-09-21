@@ -1,16 +1,13 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello PanierController!
-{% endblock %}
-
 {% block body %}
 	<div class="mt-5">
 		<table>
 			<thead>
 				<tr>
-					<th>Nom du produit</th>
-					<th>Quantité</th>
-					<th>Total</th>
+					<th>{{'panier.name'|trans}}</th>
+					<th>{{'panier.quantity'|trans}}</th>
+					<th>{{'panier.total'|trans}}</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -22,7 +19,7 @@
                     </tr>
                 {% else %}
                       <tr>
-                        <td colspan="3">Il n'y a pas de produits dans votre panier pour le moment</td>
+                        <td colspan="3">{{'panier.no'|trans}}</td>
                       </tr>  
                 {% endfor %}
             </tbody>
